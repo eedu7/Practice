@@ -14,3 +14,4 @@ class User(Base):
     username: Mapped[str]
     email: Mapped[str]
     password: Optional[Mapped[str]]
+
